@@ -9,5 +9,7 @@ class ParkListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_park_list)
+
+        supportActionBar?.title = getString(R.string.park_list)
     }
 }
